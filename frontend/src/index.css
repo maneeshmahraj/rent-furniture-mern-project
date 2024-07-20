@@ -1,9 +1,40 @@
-body {
-  margin: 0px;
-  padding: 0px;
+/* Base styles */
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif; /* Added a fallback font */
 }
 
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    height: auto; /* Let content dictate height */
+  }
+
+  .nav-logo {
+    width: 100%;
+    text-align: center; /* Center logo horizontally */
+    margin-bottom: 10px; /* Space below logo */
+  }
+
+  .nav-logo img {
+    margin: 10px 0; /* Adjusted logo margin */
+  }
+
+  .nav-layout {
+    width: 100%;
+  }
+
+  .nav-layout ul {
+    justify-content: center; /* Center items horizontally */
+  }
+
+  .nav-layout ul li {
+    margin: 0 10px; /* Reduced margin */
+  }
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -76,18 +107,19 @@ code {
 .nav-layout2
 {
   width: 50%;
- 
+   
 }
 .nav-layout2 ul
 {
   display: flex;
   margin: 2px 0px;
+  flex-wrap: wrap;
 }
 .nav-layout2 ul li
 {
   list-style-type: none;
   cursor: pointer;
-  color: grey;
+  color: black;
   margin: 0px 20px;
 }
 .nav-icon-right
@@ -139,7 +171,7 @@ code {
 {
   list-style-type: none;
   cursor: pointer;
-  color: rgb(68, 67, 67);
+  color:black;
   margin: 0px 20px;
 
 }
@@ -432,7 +464,7 @@ position: relative;
 }
 .items-shop-detail::-webkit-scrollbar{
  
- height: 10px;
+ height: 8px;
 }
 .items-shop-detail::-webkit-scrollbar-track{
   background-color:black;

@@ -1,15 +1,9 @@
   
   import React from 'react'
   import { IoBed } from "react-icons/io5";
-import { IoBedOutline } from "react-icons/io5";
-import { GiStabbedNote } from "react-icons/gi";
-import { FaTableList } from "react-icons/fa6";
-import { MdTableBar } from "react-icons/md";
+
 import { GiSofa } from "react-icons/gi";
-import { GiRoundTable } from "react-icons/gi";
-import { MdTableRestaurant } from "react-icons/md";
-import { FaToiletPortable } from "react-icons/fa6";
-import { MdMapsHomeWork } from "react-icons/md";
+
 import Festivesale from './Festivesale';
 
 
@@ -55,35 +49,33 @@ import Festivesale from './Festivesale';
            <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> DOUBLE-BED</p>
             </li>
 
-           <li> <IoBedOutline />
-           <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> SINGLE-BED</p>
+           <li> <img src="images/chare.jpeg" style={{height:"55px"}}/>
+           <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> WORK OFFICE</p>
            </li>
-           <li><GiStabbedNote />
+           <li><img src="images/wardrobe.jpeg" style={{height:"55px"}}/>
            <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> BARDROBE</p>
            </li>
-           <li><MdMapsHomeWork style={{color:"rgb(241, 84, 73)"}}/>
+           <li><img src="images/workhome.png"/>
            <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}>WORK-HOME</p>
            </li>
            
-           <li><FaTableList />
+           <li><img src="images/dresser.jpeg" style={{height:"55px"}}/>
            <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> DRESSER</p>
            </li>
-           <li><MdTableBar />
+           <li><img src="images/studytable.png" style={{height:"55px"}}/>
            <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> STUDY-TABLE</p>
            </li>
            <li><GiSofa />
         <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"8px"}}> SOFA</p>
          </li>
 
-        <li> <GiRoundTable />
+        <li> <img src="images/dinning.jpeg" style={{height:"60px"}}/>
         <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> DINIG-TABLE</p>
         </li>
-        <li><MdTableRestaurant />
-        <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> COPHY TABLE</p>
+        <li><img src="images/home.jpeg" style={{height:"55px"}}/>
+        <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> PACKAGES</p>
         </li>
-        <li><FaToiletPortable />
-        <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}>STORAGE</p>
-        </li>
+       
         
            </ul>
          </div>

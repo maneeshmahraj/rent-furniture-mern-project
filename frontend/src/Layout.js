@@ -2,15 +2,11 @@
 import React, { useState } from 'react'
 import { IoBed } from "react-icons/io5";
 import { IoBedOutline } from "react-icons/io5";
-import { GiStabbedNote } from "react-icons/gi";
-import { FaTableList } from "react-icons/fa6";
-import { MdTableBar } from "react-icons/md";
+
 import { GiSofa } from "react-icons/gi";
-import { GiRoundTable } from "react-icons/gi";
-import { MdTableRestaurant } from "react-icons/md";
+
 import { FaToiletPortable } from "react-icons/fa6";
-import { BsFillTvFill } from "react-icons/bs";
-import { TbSofa } from "react-icons/tb";
+
 import { FaSearch } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa6";
 import { IoNotifications } from "react-icons/io5";
@@ -100,13 +96,13 @@ const Layout = () => {
         <li> <IoBedOutline />
         <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> SINGLE-BED</p>
         </li>
-        <li><GiStabbedNote />
+        <li><img src="images/wardrobe.jpeg" style={{height:"55px"}}/>
         <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> BARDROBE</p>
         </li>
-        <li><FaTableList />
+        <li><img src="images/dresser.jpeg" style={{height:"55px"}}/>
         <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> DRESSER</p>
         </li>
-        <li><MdTableBar />
+        <li><img src="images/studytable.png" style={{height:"55px"}}/>
         <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> STUDY-TABLE</p>
         </li>
         </ul>
@@ -123,21 +119,19 @@ const Layout = () => {
      <p style={{fontSize:"12px", marginTop:"-10px", marginLeft:"8px"}}> SOFA</p>
       </li>
 
-     <li> <GiRoundTable />
+     <li> <img src="images/dinning.jpeg" style={{height:"60px"}}/>
      <p style={{fontSize:"12px", marginTop:"-10px", marginLeft:"-8px"}}> DINIG-TABLE</p>
      </li>
-     <li><MdTableRestaurant />
+     <li> <img src="images/chare.jpeg" style={{height:"55px"}}/>
      <p style={{fontSize:"12px", marginTop:"-10px", marginLeft:"-8px"}}> COPHY TABLE</p>
      </li>
      <li><FaToiletPortable />
      <p style={{fontSize:"12px", marginTop:"-10px", marginLeft:"-8px"}}>STORAGE</p>
      </li>
-     <li><BsFillTvFill />
-     <p style={{fontSize:"12px", marginTop:"-10px", marginLeft:"-8px"}}> TV-TABLE</p>
+     <li><img src="images/dresser.jpeg" style={{height:"55px"}}/>
+     <p style={{fontSize:"12px", marginTop:"-10px", marginLeft:"-8px"}}> DRESSER</p>
      </li>
-     <li><TbSofa />
-     <p style={{fontSize:"12px", marginTop:"-15px", marginLeft:"-8px"}}> SOFA-COM-BED</p>
-     </li>
+    
      </ul>
    </div>
       </div>:''
