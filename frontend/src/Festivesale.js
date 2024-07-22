@@ -1,7 +1,7 @@
 
 import React from 'react'
-import Content from './Content'
 import { MdCurrencyRupee } from "react-icons/md";
+import Workhome from './Workhome';
 const Festivesale = () => {
   return (
    <>
@@ -16,7 +16,7 @@ const Festivesale = () => {
   <div style={{display:"block"}}>
     <div className='item-range'>
       <span>
-      Here's a wide range of the most popular<br/> furnitures from Fabrento,<br/> offered at discounted prices.</span>
+      Here's a wide range of the most popular furnitures from Fabrento, offered at discounted prices.</span>
      </div>
      <div className='item-range-btn'>
         <button>DISCOVER MORE</button>
@@ -95,7 +95,7 @@ const Festivesale = () => {
      </div>
  
     </div>
-    <Content/>
+   <Workhome/>
    </>
   )
 }
