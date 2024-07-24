@@ -1,6 +1,7 @@
 
 
 import React from 'react'
+import Febrento from './Febrento'
 
 const Content = () => {
   
@@ -50,6 +51,7 @@ const Content = () => {
 
       </div>
     </div>
+    <Febrento/>
     </>
   )
 }

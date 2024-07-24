@@ -6,7 +6,7 @@ import Business from './Business'
 const Pakagecollection = () => {
   return (
     <>
-   <div style={{backgroundColor:"rgb(221, 215, 215)",width:"100%"}}>
+   <div style={{backgroundColor:"rgb(221, 215, 215)",width:"100%"}} className='pkg'>
    <div className='work-home' style={{paddingTop:"70px"}} >
         
         <div className='work-home-img'>
