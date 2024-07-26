@@ -55,7 +55,7 @@ import Festivesale from './Festivesale';
            <li><img src="images/wardrobe.jpeg" style={{height:"55px"}}/>
            <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}> BARDROBE</p>
            </li>
-           <li><img src="images/workhome.png"/>
+           <li><img src="images/workhome.png" className='w-home'/>
            <p style={{fontSize:"15px", marginTop:"-10px", marginLeft:"-8px"}}>WORK-HOME</p>
            </li>
            

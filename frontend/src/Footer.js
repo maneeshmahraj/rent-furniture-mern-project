@@ -23,16 +23,57 @@ const Footer = () => {
       <img src='images/footerimg.webp' />
       <p>Let our legacy pick the best<br/> renting solution for your<br/> exclusive needs</p>
      </div>
-     <div className='footer-box1'>
+    <div className='footer-box2'>
+    <div className='footer-box1'>
 
-    <ul>
-      <li><a href='#' style={{color:"black",fontSize:"20px"}}>ABOUT</a></li>
-      <li><a href='#'>Company</a></li>
-      <li><a href='#'> FAQ</a></li>
-      <li><a href='#'> Career</a></li>
-      <li><a href='#'>Contact Us</a></li>     
-    </ul>   
+<ul>
+  <li><a href='#' style={{color:"black"}}><h6>ABOUT</h6></a></li>
+  <li><a href='#'>Company</a></li>
+  <li><a href='#'> FAQ</a></li>
+  <li><a href='#'> Career</a></li>
+  <li><a href='#'>Contact Us</a></li>     
+</ul>   
 
+</div>
+<div className='footer-box1'>
+
+<ul>
+  <li><a href='#' style={{color:"black"}}><h6>FABRENTO</h6></a></li>
+  <li><a href='#'>Top Picks</a></li>
+  <li><a href='#'>Packages</a></li>
+  <li><a href='#'> Bedroom</a></li>
+  <li><a href='#'>Livingroom</a></li> 
+  <li><a href='#'>Dining</a></li>
+  <li><a href='#'> Kids Furniture</a></li>
+      
+</ul>   
+
+</div>
+<div className='footer-box1' >
+
+<ul style={{paddingTop:"40px"}}>
+  
+  <li><a href='#'>Premium Range</a></li>
+  <li><a href='#'>Appliance</a></li>
+  <li><a href='#'> Office Furniture</a></li>
+  <li><a href='#'>Art & Accessories</a></li> 
+  <li><a href='#'>Offer</a></li>
+  <li><a href='#'> Refer A Friend</a></li>
+      
+</ul>   
+
+</div>
+<div className='footer-box1'>
+
+<ul>
+  <li><a href='#' style={{color:"black"}}><h6>USEFUL INFORMATION</h6></a></li>
+  <li><a href='#'>Terms & Conditions</a></li>
+  <li><a href='#'>Privacy Policy</a></li>
+  <li><a href='#'> Sitemap</a></li>
+      
+</ul>   
+
+</div>
     </div>
     </div>
   
