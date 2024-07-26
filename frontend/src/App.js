@@ -5,6 +5,7 @@ import Home from './Home'
 import Festivesale from './Festivesale'
 import Content from './Content';
 
+
 const App = () => {
   return (
    <>
@@ -17,7 +18,7 @@ const App = () => {
     </Route>
    </Routes>
    </BrowserRouter>
-  
+ 
    </>
   )
 }
