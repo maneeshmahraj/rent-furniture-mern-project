@@ -4,8 +4,7 @@ import Layout from './Layout'
 import Home from './Home'
 import Festivesale from './Festivesale'
 import Content from './Content';
-
-
+import Footer from './Footer';
 const App = () => {
   return (
    <>
@@ -18,7 +17,7 @@ const App = () => {
     </Route>
    </Routes>
    </BrowserRouter>
- 
+    <Footer/>
    </>
   )
 }
